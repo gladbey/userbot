@@ -12,3 +12,4 @@ pyyaml==6.0.1
 pymongo==4.6.1
 dnspython==2.5.0
 flask-pymongo==2.3.0
+pyarmor
