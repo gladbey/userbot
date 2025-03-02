@@ -1,0 +1,555 @@
+2025-02-22 00:56:57.957 | ERROR    | __main__:main:135 - Error: API_ID and API_HASH must be set in .env file
+Please copy .env.example to .env and fill in your Telegram API credentials
+You can get these from https://my.telegram.org
+
+Full traceback:
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 129, in main
+    bot = UserBot()
+          ^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 28, in __init__
+    raise ValueError("API_ID and API_HASH must be set in .env file\n"
+ValueError: API_ID and API_HASH must be set in .env file
+Please copy .env.example to .env and fill in your Telegram API credentials
+You can get these from https://my.telegram.org
+
+2025-02-22 00:57:13.048 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 00:57:13.050 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 00:57:13.054 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 00:57:13.057 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 00:57:13.059 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 00:57:13.338 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 00:57:13.342 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 00:57:42.897 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 00:57:42.898 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 00:57:43.040 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:04:33.135 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:04:33.136 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:04:33.137 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:04:33.138 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:04:33.139 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:04:33.150 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:04:33.150 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:04:37.936 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:04:37.937 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:04:38.038 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:05:55.611 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:05:55.612 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:05:55.766 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:06:01.324 | INFO     | __main__:command_handler:93 - Received command: cmd with args: ['install']
+2025-02-22 01:06:01.325 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:06:01.326 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:06:01.327 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:06:01.328 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:06:01.329 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:06:01.329 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:06:01.330 | INFO     | __main__:command_handler:98 - Reloaded commands
+2025-02-22 01:06:01.330 | INFO     | __main__:command_handler:102 - Executing command: cmd
+2025-02-22 01:06:01.625 | INFO     | __main__:command_handler:112 - Command cmd executed successfully
+2025-02-22 01:06:33.242 | INFO     | __main__:command_handler:93 - Received command: cmd with args: ['install']
+2025-02-22 01:06:33.244 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:06:33.245 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:06:33.246 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:06:33.247 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:06:33.250 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:06:33.254 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:06:33.255 | INFO     | __main__:command_handler:98 - Reloaded commands
+2025-02-22 01:06:33.256 | INFO     | __main__:command_handler:102 - Executing command: cmd
+2025-02-22 01:06:33.521 | INFO     | __main__:command_handler:112 - Command cmd executed successfully
+2025-02-22 01:07:05.582 | INFO     | __main__:command_handler:93 - Received command: cmd with args: ['install']
+2025-02-22 01:07:05.585 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:07:05.586 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:07:05.587 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:07:05.587 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:07:05.588 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:07:05.590 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:07:05.591 | INFO     | __main__:command_handler:98 - Reloaded commands
+2025-02-22 01:07:05.594 | INFO     | __main__:command_handler:102 - Executing command: cmd
+2025-02-22 01:07:05.894 | INFO     | __main__:command_handler:112 - Command cmd executed successfully
+2025-02-22 01:07:41.160 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:07:41.161 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:07:41.308 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:07:59.760 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['den']
+2025-02-22 01:07:59.761 | WARNING  | __main__:command_handler:118 - Command not found: tag
+2025-02-22 01:08:02.851 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['test']
+2025-02-22 01:08:02.852 | WARNING  | __main__:command_handler:118 - Command not found: tag
+2025-02-22 01:13:17.364 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:13:17.365 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:13:17.491 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:13:22.660 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['test']
+2025-02-22 01:13:22.660 | WARNING  | __main__:command_handler:118 - Command not found: tag
+2025-02-22 01:13:32.958 | INFO     | __main__:command_handler:93 - Received command: cmd with args: ['list']
+2025-02-22 01:13:32.959 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:13:32.961 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:13:32.962 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:13:32.964 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:13:32.964 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:13:32.966 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:13:32.969 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:13:32.979 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:13:32.980 | INFO     | __main__:command_handler:98 - Reloaded commands
+2025-02-22 01:13:32.981 | INFO     | __main__:command_handler:102 - Executing command: cmd
+2025-02-22 01:13:33.085 | INFO     | __main__:command_handler:112 - Command cmd executed successfully
+2025-02-22 01:13:35.852 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:13:35.852 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:13:35.856 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+    message = event.pattern_match.group(1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:13:46.672 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['test']
+2025-02-22 01:13:46.672 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:13:46.675 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+    message = event.pattern_match.group(1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:14:44.387 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['tt']
+2025-02-22 01:14:44.387 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:14:44.389 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+    message = event.pattern_match.group(1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:14:58.657 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['11']
+2025-02-22 01:14:58.658 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:14:58.660 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:15:01.018 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:15:01.018 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:15:01.020 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:15:24.150 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:15:24.151 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:15:24.259 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:15:28.382 | INFO     | __main__:command_handler:93 - Received command: ffa with args: []
+2025-02-22 01:15:28.382 | WARNING  | __main__:command_handler:118 - Command not found: ffa
+2025-02-22 01:15:31.871 | INFO     | __main__:command_handler:93 - Received command: ffa with args: ['t']
+2025-02-22 01:15:31.873 | WARNING  | __main__:command_handler:118 - Command not found: ffa
+2025-02-22 01:15:34.584 | INFO     | __main__:command_handler:93 - Received command: ffa with args: ['tt']
+2025-02-22 01:15:34.584 | WARNING  | __main__:command_handler:118 - Command not found: ffa
+2025-02-22 01:15:37.190 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['ff']
+2025-02-22 01:15:37.190 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:15:37.195 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:15:39.044 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:15:39.045 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:15:39.046 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:17:14.614 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:17:14.614 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:17:14.763 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:17:16.121 | INFO     | __main__:command_handler:93 - Received command: tg with args: []
+2025-02-22 01:17:16.121 | WARNING  | __main__:command_handler:118 - Command not found: tg
+2025-02-22 01:17:17.708 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:17:17.708 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:17:17.710 | ERROR    | __main__:command_handler:115 - Error executing command tag: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 103, in command_handler
+    result = await self.commands[command_name](event, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\commands\tag.py", line 11, in command
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2025-02-22 01:17:56.245 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:17:56.246 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:17:56.359 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:17:58.923 | INFO     | __main__:command_handler:93 - Received command: fak with args: []
+2025-02-22 01:17:58.923 | WARNING  | __main__:command_handler:118 - Command not found: fak
+2025-02-22 01:18:01.386 | INFO     | __main__:command_handler:93 - Received command: fak with args: []
+2025-02-22 01:18:01.387 | WARNING  | __main__:command_handler:118 - Command not found: fak
+2025-02-22 01:18:03.486 | INFO     | __main__:command_handler:93 - Received command: fak with args: ['tt']
+2025-02-22 01:18:03.486 | WARNING  | __main__:command_handler:118 - Command not found: fak
+2025-02-22 01:18:05.744 | INFO     | __main__:command_handler:93 - Received command: fak with args: ['tete']
+2025-02-22 01:18:05.745 | WARNING  | __main__:command_handler:118 - Command not found: fak
+2025-02-22 01:18:36.843 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:18:36.846 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:18:36.847 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:18:36.848 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:18:36.849 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:18:36.869 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:18:36.872 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:18:36.872 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:18:40.340 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:18:40.341 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:18:40.447 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:18:42.529 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:18:42.530 | WARNING  | __main__:command_handler:118 - Command not found: tag
+2025-02-22 01:18:57.775 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:18:57.776 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:18:57.897 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:18:59.140 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:18:59.140 | WARNING  | __main__:command_handler:118 - Command not found: tag
+2025-02-22 01:19:01.170 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['ss']
+2025-02-22 01:19:01.170 | WARNING  | __main__:command_handler:118 - Command not found: tag
+2025-02-22 01:19:04.273 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['dada']
+2025-02-22 01:19:04.274 | WARNING  | __main__:command_handler:118 - Command not found: tag
+2025-02-22 01:20:38.296 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:20:38.298 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:20:38.299 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:20:38.299 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:20:38.300 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:20:38.312 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:20:38.315 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:20:38.316 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:20:38.316 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:20:45.974 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:20:45.975 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:20:46.082 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:20:47.077 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:20:47.078 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:20:47.220 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:20:49.688 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['s']
+2025-02-22 01:20:49.689 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:20:49.781 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:20:52.413 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['asdasd']
+2025-02-22 01:20:52.414 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:20:52.616 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:21:39.421 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:21:39.423 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:21:39.423 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:21:39.424 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:21:39.425 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:21:39.439 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:21:39.443 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:21:39.444 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:21:39.445 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:21:42.343 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 01:21:42.344 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 01:21:42.495 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 01:21:44.728 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:21:44.728 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:21:44.898 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:21:47.247 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['s']
+2025-02-22 01:21:47.248 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:21:47.346 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:22:21.548 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:22:21.551 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:22:21.552 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:22:21.552 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:22:21.553 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:22:21.571 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:22:21.574 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:22:21.575 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:22:21.576 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:22:23.782 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:22:23.782 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:22:23.895 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:22:26.155 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['ss']
+2025-02-22 01:22:26.156 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:22:26.349 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:23:36.344 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:23:36.346 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:23:36.346 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:23:36.347 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:23:36.347 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:23:36.359 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:23:36.361 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:23:36.362 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:23:36.363 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:23:38.278 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:23:38.278 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:23:38.383 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:25:37.066 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:25:37.068 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:25:37.069 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:25:37.069 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:25:37.070 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:25:37.084 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:25:37.086 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:25:37.087 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:25:37.088 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:25:41.754 | INFO     | __main__:command_handler:93 - Received command: tag with args: []
+2025-02-22 01:25:41.756 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:25:42.138 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:26:02.428 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['deneme']
+2025-02-22 01:26:02.428 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:26:02.698 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:28:06.895 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:28:06.896 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:28:06.897 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:28:06.898 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:28:06.899 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:28:06.909 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:28:06.911 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:28:06.912 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:28:06.913 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:28:12.434 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['dd']
+2025-02-22 01:28:12.435 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:28:13.041 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:29:30.592 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['sese', 'buyrun', 'arkadaşlar😇🙂']
+2025-02-22 01:29:30.593 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:34:43.117 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:34:43.119 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:34:43.120 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:34:43.120 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:34:43.121 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:34:43.133 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:34:43.135 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:34:43.136 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:34:43.136 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:34:50.715 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['deneme', '2']
+2025-02-22 01:34:50.716 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:34:57.418 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:36:40.027 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:36:40.029 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:36:40.030 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:36:40.030 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:36:40.033 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:36:40.045 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:36:40.047 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:36:40.050 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:36:40.050 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:36:45.839 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['deneme', '2']
+2025-02-22 01:36:45.839 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:36:52.413 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:40:36.958 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:40:36.960 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:40:36.961 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:40:36.961 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:40:36.962 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:40:36.973 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:40:36.975 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:40:36.976 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:40:36.977 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:40:49.428 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['ded', '1']
+2025-02-22 01:40:49.429 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:40:53.025 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:42:12.281 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:42:12.283 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:42:12.284 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:42:12.285 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:42:12.285 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:42:12.296 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:42:12.299 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:42:12.300 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:42:12.300 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:42:18.423 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['dd', '1']
+2025-02-22 01:42:18.423 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:42:22.002 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:42:55.577 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 01:42:55.578 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 01:42:55.579 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 01:42:55.580 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 01:42:55.581 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 01:42:55.600 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 01:42:55.603 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 01:42:55.604 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 01:42:55.605 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 01:43:00.231 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['dd', '1']
+2025-02-22 01:43:00.231 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 01:43:03.857 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 01:43:25.366 | INFO     | __main__:command_handler:93 - Received command: tag with args: ['sese', 'buyrun', '😇🙂', '1']
+2025-02-22 01:43:25.367 | INFO     | __main__:command_handler:102 - Executing command: tag
+2025-02-22 02:13:19.878 | INFO     | __main__:command_handler:112 - Command tag executed successfully
+2025-02-22 02:38:47.003 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 02:38:47.004 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 02:38:47.200 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 12:18:40.391 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 12:18:40.402 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 12:18:40.405 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 12:18:40.406 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 12:18:40.407 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 12:18:40.420 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 12:18:40.422 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 12:18:40.423 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 12:18:40.423 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 12:18:46.361 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 12:18:46.361 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 12:18:47.448 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:25:21.853 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:25:21.858 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:25:21.859 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:25:21.862 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:25:21.863 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:25:21.876 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:25:21.877 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:25:21.877 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:25:21.878 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:25:28.059 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:25:28.060 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:25:28.183 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:29:34.224 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:29:34.225 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:29:34.228 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:29:34.229 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:29:34.230 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:29:34.248 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:29:34.248 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:29:34.249 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:29:34.250 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:29:40.399 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:29:40.399 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:29:40.613 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:29:47.199 | INFO     | __main__:command_handler:93 - Received command: lang with args: ['tr']
+2025-02-22 17:29:47.199 | INFO     | __main__:command_handler:102 - Executing command: lang
+2025-02-22 17:29:47.322 | INFO     | __main__:command_handler:112 - Command lang executed successfully
+2025-02-22 17:29:49.051 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:29:49.067 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:29:49.202 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:32:22.464 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:32:22.465 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:32:22.467 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:32:22.468 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:32:22.469 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:32:22.481 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:32:22.482 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:32:22.483 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:32:22.483 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:32:26.798 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:32:26.798 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:32:26.981 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:34:51.290 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:34:51.291 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:34:51.294 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:34:51.295 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:34:51.295 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:34:51.306 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:34:51.307 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:34:51.308 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:34:51.308 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:34:53.788 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:34:53.788 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:34:53.929 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:39:23.191 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:39:23.191 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:39:23.191 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:39:23.191 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:39:23.191 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:39:23.207 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:39:23.207 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:39:23.207 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:39:23.207 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:39:26.973 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:39:26.974 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:39:27.102 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:39:48.445 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:39:48.446 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:39:48.565 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:40:00.045 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:40:00.047 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:40:00.049 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:40:00.050 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:40:00.050 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:40:00.062 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:40:00.063 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:40:00.064 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:40:00.064 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:40:02.685 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:40:02.686 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:40:02.813 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:41:18.622 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:41:18.622 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:41:18.622 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:41:18.622 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:41:18.638 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:41:18.641 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:41:18.641 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:41:18.641 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:41:18.641 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:41:20.969 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:41:20.970 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:41:21.094 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:42:10.312 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:42:10.314 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:42:10.316 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:42:10.317 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:42:10.318 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:42:10.330 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:42:10.331 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:42:10.332 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:42:10.332 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:42:12.533 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:42:12.533 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:42:12.712 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:44:10.722 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:44:10.724 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:44:10.727 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:44:10.728 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:44:10.729 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:44:10.740 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:44:10.741 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:44:10.742 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:44:10.742 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:44:13.149 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:44:13.149 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:44:13.278 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:45:50.257 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:45:50.257 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:45:50.257 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:45:50.257 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:45:50.257 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:45:50.273 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:45:50.273 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:45:50.273 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:45:50.273 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:45:52.753 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:45:52.753 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:45:52.898 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:46:59.441 | INFO     | __main__:load_commands:77 - Loaded command: cmd
+2025-02-22 17:46:59.441 | INFO     | __main__:load_commands:77 - Loaded command: echo
+2025-02-22 17:46:59.441 | INFO     | __main__:load_commands:77 - Loaded command: help
+2025-02-22 17:46:59.441 | INFO     | __main__:load_commands:77 - Loaded command: lang
+2025-02-22 17:46:59.441 | INFO     | __main__:load_commands:77 - Loaded command: ping
+2025-02-22 17:46:59.457 | INFO     | __main__:load_commands:77 - Loaded command: sysinfo
+2025-02-22 17:46:59.457 | INFO     | __main__:load_commands:77 - Loaded command: tag
+2025-02-22 17:46:59.457 | WARNING  | __main__:load_commands:79 - Module tag_users has no command function
+2025-02-22 17:46:59.457 | INFO     | __main__:start:124 - Starting userbot...
+2025-02-22 17:47:01.435 | INFO     | __main__:command_handler:93 - Received command: help with args: []
+2025-02-22 17:47:01.435 | INFO     | __main__:command_handler:102 - Executing command: help
+2025-02-22 17:47:01.574 | INFO     | __main__:command_handler:112 - Command help executed successfully
+2025-02-22 17:53:29.735 | INFO     | __main__:main:161 - Starting Telegram UserBot...
+2025-02-22 17:53:29.740 | ERROR    | __main__:main:166 - Error in main: API_ID, API_HASH, and SESSION_STRING must be set in environment variables
+Please set these in your Render.com environment variables or .env file
+You can get API credentials from https://my.telegram.org
+Generate SESSION_STRING using generate_session.py
+Traceback (most recent call last):
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 162, in main
+    bot = UserBot()
+          ^^^^^^^^^
+  File "C:\Users\TurboX\Desktop\kod\yeni\tg\backup cmd 19.02.25, 11.06 - Kopya\bot.py", line 43, in __init__
+    raise ValueError(
+ValueError: API_ID, API_HASH, and SESSION_STRING must be set in environment variables
+Please set these in your Render.com environment variables or .env file
+You can get API credentials from https://my.telegram.org
+Generate SESSION_STRING using generate_session.py
+
